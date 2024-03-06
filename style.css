@@ -49,3 +49,24 @@ p{
     font-size: 1.5rem;
     color: blue;
 }
+
+.other-page-links{
+    padding: 4px;
+    display: flex;
+    gap: 10px;
+}
+
+.other-page-links>a{
+    padding: 17px 30px;
+    font-size: 1.3rem;
+    font-weight: 600;
+    text-decoration: none;
+    color: #ffff;
+    background-color: #484848;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.other-page-links>a:hover{
+    scale: 1.1;
+}
