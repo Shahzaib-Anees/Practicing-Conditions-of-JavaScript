@@ -23,21 +23,8 @@ if (percentage >= 80) {
     remarks="You need to improve";
 }else{
     grade = "Fail";
-    remarks="Sorry";
+    remarks="Sorry! You are Fail";
 }
-
-// Documentation to write on Page 
-// document.write("<h3>MarkSheet</h3>")
-// document.write("<br>")
-// document.write(`Total Marks : ${total_marks}`);
-// document.write("<br>")
-// document.write(`Marks Obtained : ${subtotal_subjects}`);
-// document.write("<br>")
-// document.write(`Percentage : ${percentage}`);
-// document.write("<br>")
-// document.write(`Grade : ${grade}`);
-// document.write("<br>")
-// document.write(`Remarks : ${remarks}`);
 
 document.write(`<div id="marksheet-box">
 <h3>MarkSheet</h3>
