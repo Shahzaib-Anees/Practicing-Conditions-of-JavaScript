@@ -13,9 +13,10 @@ let c= 12;
 if(c++ === 13){
     alert("Given Condition 1 for Variable C is true")
 }//false
+console.log(c);
 if(c === 13){
     alert("Given Condition 2 for Variable C is true")
-}//false
+}//True
 if(++c < 14){
     alert("Given Condition 3 for Variable C is true")
 }//false
@@ -31,6 +32,7 @@ if(totalCost = laborCost + materialCost ){
     alert("Cost are equals")
 }
 
+// 7
 if(true){
     alert("true");
 }
@@ -38,6 +40,7 @@ if(false){
     alert("False");
 }
 
+// 8
 if("car" < "cat"){
     alert("Car is smaller than cat")
 }
