@@ -1,10 +1,3 @@
-
-
-
-
-
-
-
 // 5
 let a=4;
 if(++a === 5){
@@ -30,6 +23,7 @@ if (c === 14){
     alert("Given Condition 4 for Variable C is true")
 }
 
+// 6
 let materialCost=20000;
 let laborCost = 2000;
 let totalCost = materialCost + laborCost;
